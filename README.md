@@ -83,6 +83,8 @@ Will just print `A group of flamingos is called a #{answer}.`
 
 If you were committed to using single quotes in such a case, it would be the right time to use the alternative method (`'A group of flamingos is called a ' + answer + '.'`) which would work just fine.
 
+Just to clarify, this only applies to `puts` and other Ruby methods; it does NOT apply to variables. That is, `answer` can equal "Flamboyance" (double quotes) or 'Flamboyance' (single quotes) without affecting string interpolation.
+
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/interpolation-readme' title='String Interpolation'>String Interpolation</a> on Learn.co and start learning to code for free.</p>
 
